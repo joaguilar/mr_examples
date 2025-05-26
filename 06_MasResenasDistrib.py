@@ -68,7 +68,7 @@ class Clasificaciones(MRJob):
     def reducer_ordenar_resenas(self, key, _):
         """
         Reducer final: re-emite la tupla ordenada, convirtiendo la clave
-        invertida a positivo nuevamente.
+        invertida a positivo nuevamente. Usa el paso de shuffle and sort para ordenar las películas.
 
         Entrada clave: (-total_reseñas, movieID)
         Salida: (movieID, total_reseñas)
