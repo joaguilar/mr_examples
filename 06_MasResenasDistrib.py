@@ -11,7 +11,7 @@ class Clasificaciones(MRJob):
     
     Uso:
     - Desde la línea de comandos:
-        python 05_MasResenasDistrib.py ratings_random_noheader.csv
+        python 06_MasResenasDistrib.py ratings_random_noheader.csv
     - ratings_random_noheader.csv contiene los datos de la tabla ratings sin los headings.
     
     """    
