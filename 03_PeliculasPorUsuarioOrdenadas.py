@@ -1,5 +1,4 @@
-from mrjob.job import MRJob
-from mrjob.step import MRStep
+from mapreduce import MRJob, MRStep
 
 class PeliculasPorUsuario(MRJob):
     """

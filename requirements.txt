@@ -1,1 +1,1 @@
-mrjob
+# Sin dependencias externas — el framework mapreduce.py usa solo la biblioteca estándar de Python.
